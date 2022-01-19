@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import "./css/App.css";
 import {
   MenuItem,
   FormControl,
@@ -7,12 +7,12 @@ import {
   Card,
   CardContent,
 } from "@material-ui/core";
-import InfoBox from "./InfoBox";
-import LineGraph from "./LineGraph";
-import Table from "./Table";
+import InfoBox from "./components/InfoBox";
+import LineGraph from "./components/LineGraph";
+import Table from "./components/Table";
 import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
-import Map from "./Map";
+import Map from "./components/Map";
 import "leaflet/dist/leaflet.css";
 
 const App = () => {
