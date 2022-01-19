@@ -1,3 +1,7 @@
+# Demo of site
+
+At this adress you can see the site running [Covid19-tracker](https://covidtracker-70cfc.web.app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
